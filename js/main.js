@@ -1,7 +1,7 @@
 var $h1Above = $('<h1>');
 var $h1Below = $('<h1>');
-var $liAbove = $('<ul>');
-var $liBelow = $('<ul>');
+var $ulAbove = $('<ul>');
+var $ulBelow = $('<ul>');
 
 $h1Above.html('Above ground veggies');
 $h1Below.html('Below ground veggies');
