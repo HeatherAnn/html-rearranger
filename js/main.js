@@ -12,10 +12,10 @@ $('body').append($ulAbove);
 $('body').append($h1Below);
 $('body').append($ulBelow);
 
-$('ul li').each(function() {
-  if($(this).hasClass('above')){
-    $ulAbove.append($(this))
+$('ul li').each(function () {
+  if ($(this).hasClass('above')) {
+    $ulAbove.append($(this));
   } else {
-    $ulBelow.append($(this))
+    $ulBelow.append($(this));
   }
 });
